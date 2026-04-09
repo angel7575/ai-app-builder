@@ -29,7 +29,8 @@ class _ChatScreenState extends State<ChatScreen> {
     final response = await http.post(
       Uri.parse("https://api.openai.com/v1/chat/completions"),
       headers: {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer 
+          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",
         "Content-Type": "application/json"
       },
       body: jsonEncode({
